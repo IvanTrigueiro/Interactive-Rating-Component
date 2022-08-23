@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Overpass'; font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.big_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box_center{
+    position: absolute;
+    top: 30%; left: 30%; right: 30%; bottom: 30%;
+    border-radius: 4%;
+    color:white;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.circle_star{
+    margin: 1rem;
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e3b47;
+}
+
+.star{
+    height: 25px;
+    width: 25px;
+    display: block;
+}
+
+h1{
+    margin: 1rem;
+}
+
+p{
+    margin: 1rem;
+}
+
+.rating{
+    display: flex;
+}
+
+.one{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
