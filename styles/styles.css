@@ -20,12 +20,16 @@ body {
     padding: 10px;
     font-size: 20px;
     background-color: hsl(216, 12%, 8%);
+    align-items: center;
+    justify-content: center;
 }
 
 .box_center{
     position: absolute;
-    top: 30%; left: 30%; right: 30%; bottom: 30%;
-    border-radius: 4%;
+    padding: 2.25rem 2rem 3rem;
+    border-radius: 1.5rem;
+    max-width: 33.5rem;
+    min-height: 38.6167rem;
     color:white;
     background-color: hsl(213, 19%, 18%);
 }
@@ -49,18 +53,59 @@ body {
 
 h1{
     margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 p{
     margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .rating{
     display: flex;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
-.one{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
+.one, .two, .three, .four, .five{
+    margin-left: 17px;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    background-color: #2e3b47;
+    color: lightgray;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 1s ease;
 }
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: lightgray;
+    border-color: white;
+}
+
+.one:focus, .two:focus, .three:focus, .four:focus, .five:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    color: lightgray;
+    border-radius: 3rem;
+    font-size: 1.60rem;
+    font-weight: 550;
+    letter-spacing: 0.5rem;
+    width: 100%;
+    height: 4rem;
+    transition: background 1s ease;
+    transform: color 0.5s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
