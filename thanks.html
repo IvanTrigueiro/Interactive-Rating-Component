@@ -17,28 +17,26 @@
   </style>
 </head>
 <body>
-    <div class = "intro_card">
+    <div class = "thanks_card">
         <div class = "box_center">
-            <div class = "circle_star">
-                <img class= "star" src="/images/icon-star.svg" alt="star">
+            <div class = "thanks_img_div">
+                <img class= "thanks_img" src="/images/illustration-thank-you.svg" alt="thank you">
             </div>
+            <p class = selected_number>
+                You selected <span id="score"></span> out of 5.
+            </p>
             <h1>
-                How did we do?
+                Thank you
             </h1>
             <p>
-                Please let us know how we did with your support request. all feedback is appreciated to help us improve our offering!
+                We appriciate you taking the time to give a rating.
+                If you ever need more support, don't hesitate to get in touch!
             </p>
-            <div class="rating">
-                <button class = "one">1</button>
-                <button class = "two">2</button>
-                <button class = "three">3</button>
-                <button class = "four">4</button>
-                <button class = "five">5</button>
-            </div>
-            <button id = "submitButton" class = "submit_button">SUBMIT</button>
+            
+            <button id = "rateAgain" class = "rate_again">RATE AGAIN</button>
         </div>
     </div>
-
-    <script src="./js/index.js"></script>
+    
+    <script src="./js/thanks.js"></script>
 </body>
 </html>

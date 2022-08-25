@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-.big_container {
+.intro_card, .thanks_card {
     height: 100%;
     width: 100%;
     display: flex;
@@ -109,3 +109,18 @@ button:hover{
     color: hsl(25, 97%, 53%);
 }
 
+.thanks_img_div{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.selected_number{
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+}
+
+.rate_again{
+    margin-top: 1.5rem;
+}
